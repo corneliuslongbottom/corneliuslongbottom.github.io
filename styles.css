@@ -1,0 +1,63 @@
+/* Add your custom CSS styles to customize the appearance of the website */
+body {
+  background-color: lightyellow;
+  color: darkblue;
+  font-family: "Comic Sans MS", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: salmon;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.news-banner {
+  background-color: #ffcc00;
+  padding: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.news-banner marquee {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+section {
+  padding: 50px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
